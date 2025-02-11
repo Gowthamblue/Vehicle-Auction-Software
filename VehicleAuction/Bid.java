@@ -10,7 +10,5 @@ public class Bid extends Vehicles{
     }
     public void setBidprice(int bidprice) {
         this.bidprice = bidprice;
-    }
-    
-    
+    }   
 }
