@@ -1,0 +1,33 @@
+body {
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 30%;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.navbar-nav .nav-link {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.05);
+    color:#000;
+}
+
+main h1{
+    margin-top: 5%;
+}
